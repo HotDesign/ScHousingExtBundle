@@ -9,31 +9,31 @@ namespace HotDesign\ScHousingExtBundle\Config;
 class HousingType {
 
     private static $types = array(
-        '0' => array(
+        '1' => array(
             'label' => 'Venta',
         ),
-        '1' => array(
+        '2' => array(
             'label' => 'Alquiler',
         ),
-        '2' => array(
+        '3' => array(
             'label' => 'Venta/Alquiler',
         ),
-        '3' => array(
+        '4' => array(
             'label' => 'Alquilada',
         ),
-        '4' => array(
+        '5' => array(
             'label' => 'Vendida',
         ),
-        '5' => array(
+        '6' => array(
             'label' => 'A confirmar',
         ),
-        '6' => array(
+        '7' => array(
             'label' => 'Proyecto',
         ),
-        '7' => array(
+        '8' => array(
             'label' => 'En construcción',
         ),
-        '8' => array(
+        '9' => array(
             'label' => 'Finalizada',
         ),
     );
